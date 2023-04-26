@@ -25,7 +25,7 @@ Since you need to find the maximum values that the difference can be among any t
 
 ## Classification
 Here the numbers 0-9 are one-hot encoded. So the numbers can differ in at most one position, in fact choosing any two numbers yield the same result. Here one example is shown
-$$\Delta f = \lVert\begin{bmatrix}1&0&0&0&0&0&0&0&0\end{bmatrix} - \begin{bmatrix}0&0&0&1&0&0&0&0&0\end{bmatrix} \rVert_{1}= 2$$
+$$\Delta f = \lVert[1 0 0 0 0 0 0 0 0] - [0 0 0 1 0 0 0 0 0]\rVert_{1}= 2$$
 
 One can cross-check with numpy:
 ```python
